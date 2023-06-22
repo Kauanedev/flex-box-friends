@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #576d8d;
+    width: 1500px;
+}
+
+.sidebar {
+    position: relative;
+
+    width: 230px;
+    height: 1200px;
+
+    background: #253A5C;
+}
+
+.logo {
+    display: flex;
+
+    cursor: pointer;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.568);
+}
+
+.logo img {
+    position: relative;
+    left: 62px;
+    height: 90px;
+    width: 70px;
+
+}
+
+header {
+    position: relative;
+    width: 500px;
+    height: 54px;
+    left: 780px;
+    top: 32px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.blocks img {
+    position: relative;
+    left: 50px;
+    height: 125px;
+    width: auto;
+
+    top: 5px;
+
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
+
+.group-1 {
+    position: relative;
+    width: 231.29px;
+    height: 355px;
+
+    left: 566px;
+    top: 50px;
+
+    margin-bottom: 8px;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+
+.group-2 {
+    position: relative;
+    width: 231.29px;
+    height: 355px;
+    left: 242px;
+    bottom: 222px;
+
+    margin-bottom: 8px;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+
+strong {
+    position: relative;
+    top: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #131E30;
+}
+
+h4 {
+    position: relative;
+
+    top: 85px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+u {
+    position: relative;
+    top: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #131E30;
+}
+
+a {
+    position: relative;
+    top: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #131E30;
+}
+
+a:hover {
+    font-size: 22px;
+}
+
+.girl-5 {
+    height: 70px;
+    width: 70px;
+
+}
+
+button {
+    position: relative;
+    width: 180px;
+    height: 45px;
+
+    margin-left: 18px;
+    margin-right: 13px;
+    margin-top: 32px;
+
+    cursor: pointer;
+
+    border-color: lightgreen;
+    color: white;
+    background: #41AF1A;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    background-color: #485977;
+    color: #41AF1A;
+}
